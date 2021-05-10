@@ -1,0 +1,189 @@
+@charset "UTF-8";
+#fixTable{
+
+}
+#fixTable>div{
+
+	display:flex;
+	position:fixed;
+	z-index:1;
+	top:175px;
+	left:1%;
+	line-height:25px;
+}
+#fixTable>div>div{
+	border:solid 1px white;
+	color:white;
+	background-color:gray;
+	max-height:25px;
+	text-align:center;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#fixTable>div>div:first-child{
+}
+#mainTable{
+	position:absolute;
+	top:200px;
+	left:1%;
+	overflow-y:scroll;
+}
+#mainTable>div{
+
+	display:flex;
+	line-height:1.2em;
+}
+#mainTable>div>div{
+	border:solid 1px black;
+	max-height:4.8em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+}
+#mainTable>div>div:first-child{
+
+}
+#mainTable a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:black;
+	font-size:1.15em;
+	background-color:rgba(0,0,0,.2);
+}
+#mainTable a:hover{
+	background-color:rgba(0,0,0,.5);
+}
+.industry a{
+	height:100%;
+	display:block;
+	color:black;
+}
+.industry a:hover{
+	
+}
+.titleButton{
+	background-color:gray;
+	border-radius:.5em;
+	-webkit-border-radius:.5em;
+    -moz-border-radius:.5em;
+	color:black;
+	text-shadow:0 2px 2px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.titleButton button{
+	border-radius:.5em;
+	-webkit-border-radius:.5em;
+    -moz-border-radius:.5em;
+	color:black;
+	text-shadow:0 2px 2px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.titleButton button:hover{
+	cursor:pointer;
+	border:solid 1px pink;
+}
+.title4{
+	background-color:rgba(255,0,0,.3);
+}
+.title3{
+	background-color:rgba(255,255,0,.3);
+
+}
+.title2{
+	background-color:rgba(0,128,255,.3);
+
+}
+.title1{
+	background-color:rgba(0,255,0,.3);
+	
+}
+#title5{
+	background-color:rgba(128,0,255,.3);
+}
+#title4{
+	background-color:rgba(255,0,0,.3);
+}
+#title3{
+	background-color:rgba(255,255,0,.3);
+
+}
+#title2{
+	background-color:rgba(0,128,255,.3);
+
+}
+#title1{
+	background-color:rgba(0,255,0,.3);
+	
+}
+.title5{
+	background-color:rgba(128,0,255,.3);
+}
+.foldButton{
+	background-color:gray;
+	border-radius:.5em;
+	-webkit-border-radius:.5em;
+    -moz-border-radius:.5em;
+	color:black;
+	text-shadow:0 2px 2px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	text-align:center;
+}
+.foldButton button{
+	background-color:white;
+	border-radius:.5em;
+	-webkit-border-radius:.5em;
+    -moz-border-radius:.5em;
+	color:black;
+	text-shadow:0 2px 2px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.foldButton button:hover{
+	cursor:pointer;
+	border:solid 1px pink;
+}
+#addRowTable{
+		
+}
+#adm{
+	text-align:center;
+}
+#adm h1{
+	background-color:rgba(0,0,0,.4);
+}
+#adm form{
+	background-color:rgba(0,0,0,.4);
+}
+#admTable{
+	position:absolute;
+	top:200px;
+	left:15%;
+	width:70%;
+	line-height:80px;
+	border:solid 1em orange;
+	margin:0 auto;
+	overflow-y:scroll;
+	background-color:rgba(0,0,0,.4);
+}
+#admTable form input{
+	display:inline;
+}
+#ccc{
+	background-image:url(../Image/spadm.jpg);
+	background-repeat:round;
+	color:white;
+	overflow:hidden;
+}
+#bbb{
+	background-image:url(../Image/sky.jpg);
+	background-repeat:round;
+	overflow:hidden;
+}

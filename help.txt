@@ -1,0 +1,15 @@
+Main entry : ...\TAX\PHP\home.php
+SuperAdministrator entry :  ...\TAX\PHP\superAdm.php
+User:
+	SuperAdministrator :			/*  can add, delete and change the kind of users;
+					    can read and write files;              */                    
+		Username : SuperAdministrator
+		Password : SuperAdministrator
+
+	Administrator :			//    can read and write files                
+		Username : Administrator
+		Password : Administrator
+
+	NormalUser :			//    only can read files                
+		Username : NormalUser 
+		Password : NormalUser 
